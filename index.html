@@ -2,11 +2,124 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>萌宠俱乐部</title>
+    <link rel="stylesheet" href="./index.css">
 </head>
 <body>
-    
+    <!--header begin-->
+    <div class="header">
+        <div class="header_in">
+            <div class="left">
+                <img src="./images/logo.png">
+            </div>
+            <div class="right">
+                <img src="./images/pic04.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!--header end-->
+    <!--nav begin-->
+    <div class="nav">
+        <ul>
+            <li><a href="">首页</a></li>
+            <li><a href="">萌宠领养</a></li>
+            <li><a href="">萌宠医院</a></li>
+            <li><a href="">萌宠食品</a></li>
+            <li><a href="">萌宠咨询</a></li>
+            <li class="last"><a href="">注册会员</a></li>
+        </ul>
+    </div>
+    <!--nav end-->
+    <!--banner begin-->
+    <div class="banner"></div>
+    <!--banner end-->
+    <!--content begin-->
+    <div class="content">
+        <div class="top">
+            会员注册
+        </div>
+        <table class="con">
+            <tr>
+                <td class="left">昵称：</td>
+                <td><input class="right" type="text"></td>
+            </tr>
+            <tr>
+                <td class="left">邮箱：</td>
+                <td><input class="right" type="text"></td>
+            </tr>
+            <tr>
+                <td class="left">手机：</td>
+                <td><input class="right" type="text"></td>
+            </tr>
+            <tr>
+                <td class="left">设置密码：</td>
+                <td><input class="right" type="text"></td>
+            </tr>
+            <tr>
+                <td class="left">确认密码：</td>
+                <td><input class="right" type="text"></td>
+            </tr>
+        </table>
+        <div class="top">
+            宠物信息
+        </div>
+        <table class="con">
+            <tr>
+                <td class="left">所属种类：</td>
+                <td>
+                    <select name="select">
+                        <option value="1">-请选择-</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="left">性别：</td>
+                <td>
+                    <input type="radio" name="sex" value="m"><label for="m">男</label>
+                    <span>&nbsp;&nbsp;</span>
+                    <input type="radio" name="sex" value="f"><label for="f">女</label>
+                </td>
+            </tr>
+            <tr>
+                <td class="left">年龄：</td>
+                <td>
+                    <select name="select">
+                        <option value="1">-请选择-</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="left">喜欢的食物：</td>
+                <td>
+                    <input type="checkbox" name="habitFood" value="1">
+                    <label>面食</label>
+                    <input type="checkbox" name="habitFood" value="2">
+                    <label>青草</label>
+                    <input type="checkbox" name="habitFood" value="3">
+                    <label>肉类</label>
+                    <input type="checkbox" name="habitFood" value="4">
+                    <label>杂粮</label>
+                    <input type="checkbox" name="habitFood" value="5">
+                    <label>水果</label>
+                    <input type="checkbox" name="habitFood" value="6">
+                    <label>蔬菜</label>
+                </td>
+            </tr>
+            <tr>
+                <td class="left">备注：</td>
+                <td><textarea name="note" cols="30" rows="10" placeholder="请填写备注内容..."></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input class="btn" type="button" value="完成注册"></td>
+            </tr>
+        </table>
+    </div>
+    <!--content end-->
+    <!--footer begin-->
+    <div class="footer">
+        <div class="footer">Copyright © 2006-2016 QIANNIANZHILIANcom, All rights reserved.<br />2001-2018，版权所有 萌宠俱乐部 85CP备13385453</div>
+    </div>
+    <!--footer end-->
 </body>
 </html>
